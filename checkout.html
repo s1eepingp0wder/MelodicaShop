@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+  <!--Begin head -->
+<title>Fun-Key's Melodica Shop</title>
+<link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+<!-- <link rel="stylesheet" href="website-theme.css"> -->
+</head>
+
+<!-- Start Body of Website -->
+<body background="images/bg.jpg">
+ <main>
+
+   <header>
+     <div align="center">
+     <table>
+       <tbody>
+         <tr>
+           <td><img src="images/logo.png" height= "64px" width= auto></td>
+           <td><h1>Fun-Keys Melodica Shop</td>
+         </tr>
+       </tbody>
+     </table>
+   </div>
+      <!--Some kinda background eventually-->
+  </header>
+<hr>
+
+<!--Navigation Bar-->
+<nav>
+  <div align="center">
+  <!--I'm stubborn so I'm using tables to make a style here for now.-->
+  <table>
+    <tbody>
+      <tr>
+        <td><a href="index.html">Home</a></td>
+        <td><a href="items/search.html">Selection</a></td>
+        <td><a href="cart.html">Cart<a></td>
+        <td><a href="checkout.html">Checkout</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+</div>
+<nav>
+<article>
+  <p><h2>Shipping Address</h2></p>
+  <!-- The First and Last name are on the same line!! -->
+  <p>Name <input type="text" name="First Name" id="name" placeholder="First Name">
+  <input type="text" name="Last Name" id="name" placeholder="Last Name"></p>
+  <p>
+  Address <input type="text" style="width: 300px;" name="Address" id="address" placeholder="Address Line 1"></p>
+<p style="text-indent:58px;">  <input type="text" style="width: 300px;" name="Address" id="address" placeholder="Address Line 2">
+</p>
+<p>
+  City <input type="text" name="city" placeholder="Boston"> State <input type="text" name="state" placeholder="Massachusetts"><br>
+  ZIP Code <input type="text" name="zip" placeholder="12345"> Country <input type="text" name="country" placeholder="USA">
+</p>
+  <!-- Billing Address is a Re-hashed Shipping Address.
+       Later on, have a js function that allows the user to copy this info.-->
+<p><h2>Billing Address</h2></p>
+<!-- The First and Last name are on the same line!! -->
+<p>Name <input type="text" name="First Name" id="name" placeholder="First Name">
+<input type="text" name="Last Name" id="name" placeholder="Last Name"></p>
+<p>
+Address <input type="text" style="width: 300px;" name="Address" id="address" placeholder="Address Line 1"></p>
+<p style="text-indent:58px;"><input type="text" style="width: 300px;" name="Address" id="address" placeholder="Address Line 2">
+</p>
+<p>
+City <input type="text" name="city" placeholder="Boston"> State <input type="text" name="state" placeholder="Massachusetts"><br>
+ZIP Code <input type="text" name="zip" placeholder="12345"> Country <input type="text" name="country" placeholder="USA">
+</p>
+<h2>Credit Card</h2>
+<p>Credit Card Number <input type="text" style="width:300px;" name="creditcard" placeholder="Please Enter a Valid Credit Card Number"></p>
+<p style="text-indent:100px;">CVC <input style="width:30px;" type="text" name="CVC" placeholder="123"></p>
+<p style="text-indent:60px;">Exp. Date <input type="Date"></p>
+<hr>
+<form action="checkout-complete.html">
+    <input type="submit" value="Checkout" />
+</form>
+</article>
+<footer>
+  <hr>
+  <p>©2018 Fun-Keys Melodica Shop. All Rights Reserved. <a href="policy.html">Privacy Policy</a> <a href="support.html">Support</a> [[INSERT LANGUAGE SELECTION HERE]]
+</footer>
+ </main>
+</body>
+</html>
