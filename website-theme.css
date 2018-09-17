@@ -15,8 +15,33 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .headertext{
+  font-family: 'Monoton', cursive;
+  text-transform: uppercase;
   margin-top: inherit;
   text-align: center;
   font-weight: 600;
   font-size: 3em;
+  -webkit-animation:hueswap 10s infinite alternate;
+}
+@-webkit-keyframes hueswap {
+
+  0%{
+    color: red;
+  }
+  20%{
+    color: orange;
+  }
+  40%{
+    color: yellow;
+  }
+  60%{
+    color: green
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color: purple;
+  }
+
 }
